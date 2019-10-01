@@ -4,7 +4,7 @@
 
 body {
   color: #000;
-  background-color: #FFFDEF;
+  background-color: #FFFEF7;
   transition: background-color 1s ease;
   position: relative
 }
@@ -38,6 +38,34 @@ html, body {
     letter-spacing: -2px;
   }
   @font-face {
+  font-family: Avenir-oblique;
+  src: url(../type/avenir-45-oblique.woff);
+  }
+  h4 {
+    font-family:Avenir-oblique;
+    line-height: 1.3em;
+    color: #AEA989;
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+    /* letter-spacing: -1px; */
+    font-size: 1.3rem;
+    max-width: 30rem;
+  }
+  h5 {
+    font-family:Avenir;
+    line-height: 1.5em;
+    font-size: 0.6rem;
+    /* line-height: 2.5em; */
+    text-align: left;
+    margin-top: -2rem;
+    display: inline-block;
+    padding: 1rem;
+    color: #AEA989;
+    max-width: 30rem;
+  }
+  @font-face {
   font-family: Avenir;
   src: url(../type/Avenir-Medium.woff);
   }
@@ -49,7 +77,8 @@ html, body {
   text-align: left;
   display: inline-block;
   padding: 1rem;
-  color: #AEA989;
+  color: #8C8462;
+  /* max-width: 32rem; */
   }
   p {
     font-family:Avenir;
@@ -59,8 +88,8 @@ html, body {
     text-align: left;
     display: inline-block;
     padding: 1rem;
-    color: #AEA989;
-    max-width: 30rem;
+    color: #8C8462;
+    max-width: 32rem;
   }
   p span
 {
@@ -87,7 +116,7 @@ html, body {
     padding: 3rem;
   }
   figcaption {
-    color: #AEA989;
+    color: #8C8462;
     font-family:Avenir;
     font-size: 0.8rem;
     text-align: bottom;
@@ -98,7 +127,7 @@ html, body {
     background-color: #009b1d;
   }
   .bg2 {
-    background-color: #FFFDEF;
+    background-color: #FFFEF7;
   }
 
   .yellow-square {
@@ -119,22 +148,13 @@ html, body {
     max-width: 20rem;
     margin-right: 30%;
   }
-  /* .bgmerge {
-    color: #000;
-    background-color: #f4f4f4;
-    transition: background-color 1s ease;
-  } */
+  .videostyle2 {
+    max-width: 40rem;
+    /* margin-right: 30%; */
+  }
 
   /* panel styles */
   .panel {
-    /* min height incase content is higher than window height */
-    /* height: 10vh; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* font-family: sans-serif; */
-    /* outline: 10px solid hotpink; */
-    /* turn above on to see the edge of panels */
   }
 
   /* colours */
@@ -143,11 +163,10 @@ html, body {
   }
 
   .color-aape {
-    background-color: #FFFDEF;
+    background-color: #FFFEF7;
   }
 
 /* SVG styling */
-
 .peakflowcolour {
   fill:#ee8531;
 }
@@ -240,4 +259,13 @@ fill:#e5e5e4;
 }
 .anim path {
   stroke-width: 2;
+}
+
+.smol {
+  /* DELETE */
+  width: 33%;
+  padding: 0.5rem;
+}
+.med {
+  width: 50%;
 }
