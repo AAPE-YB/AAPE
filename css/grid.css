@@ -54,6 +54,36 @@ had help from andrew with flex-grow, flex-end */
       max-width: 50rem;
       font-size: 1.5rem;
     }
+    .smol {
+      /* DELETE */
+      width: 95%;
+      padding: 0.5rem;
+    }
+    .med {
+      width: 20rem;
+    }
+    .aapeAlign {
+      margin-left: -22rem;
+    }
+    .videostyle {
+      max-width: 20rem;
+      /* margin-right: 30%; */
+    }
+    .videostyle2 {
+      max-width: 20rem;
+      /* margin-right: 30%; */
+    }
+    .video-grid-col-1of2 {
+        flex-basis: 50%;
+        /* align-self: left; */
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        order: 2;
+   }
+   .stacktype {
+     /* text-align: center; */
+   }
 }
  @media (min-width: 23.5em) {
    .collageDesktop {
@@ -76,6 +106,14 @@ had help from andrew with flex-grow, flex-end */
    .vimeopush {
      padding-top: none;
    }
+   .smol {
+     /* DELETE */
+     width: 25rem;
+     padding: 0.5rem;
+   }
+   .med {
+     width: 25rem;
+   }
 }
  @media (min-width: 45em) {
    .collageDesktop {
@@ -96,6 +134,14 @@ had help from andrew with flex-grow, flex-end */
    }
    .vimeopush {
      padding-top: 50rem;
+   }
+   .smol {
+     /* DELETE */
+     width: 30rem;
+     padding: 0.5rem;
+   }
+   .med {
+     width: 40rem;
    }
 }
  @media (min-width: 56.25em) {
@@ -122,10 +168,12 @@ had help from andrew with flex-grow, flex-end */
    .collageMobileDrop {
      display: none;
    }
-   .grid-col-1of2 {
-       flex-basis: 50%;
-       align-self: flex-end;
-       flex-grow: 1;
+  .grid-col-1of4 {
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    align-self: flex-end;
+    flex-grow: 1;
   }
   .grid-col-1of2 {
       flex-basis: 50%;
@@ -135,11 +183,15 @@ had help from andrew with flex-grow, flex-end */
  }
   .video-grid-col-1of2 {
       flex-basis: 50%;
-      align-self: left;
+      /* align-self: left; */
+      align-items: center;
+      justify-content: center;
       flex-grow: 1;
       order: 2;
  }
+
    .grid-col-1of3 {
+     flex-basis: 50%;
      display: flex;
      flex-wrap: wrap;
      align-items: center;
@@ -162,6 +214,7 @@ had help from andrew with flex-grow, flex-end */
    }
    .stacktype {
      position:absolute;
+     max-width: 40rem;
      z-index: 1;
      margin-top: 3rem;
      margin-left:auto;
@@ -203,5 +256,21 @@ had help from andrew with flex-grow, flex-end */
      margin-top: -13rem;
      position: absolute;
      z-index: 1; */
+   }
+   .smol {
+     /* DELETE */
+     width: 30rem;
+     padding: 0.5rem;
+   }
+   .med {
+     width: 40rem;
+   }
+   .videostyle {
+     max-width: 20rem;
+     margin-right: 30%;
+   }
+   .videostyle2 {
+     max-width: 40rem;
+     /* margin-right: 30%; */
    }
 }
