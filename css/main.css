@@ -144,14 +144,6 @@ html, body {
   .darq {
     background-color: black;
   }
-  .videostyle {
-    max-width: 20rem;
-    margin-right: 30%;
-  }
-  .videostyle2 {
-    max-width: 40rem;
-    /* margin-right: 30%; */
-  }
 
   /* panel styles */
   .panel {
@@ -259,13 +251,4 @@ fill:#e5e5e4;
 }
 .anim path {
   stroke-width: 2;
-}
-
-.smol {
-  /* DELETE */
-  width: 33%;
-  padding: 0.5rem;
-}
-.med {
-  width: 50%;
 }
