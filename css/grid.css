@@ -67,7 +67,7 @@ had help from andrew with flex-grow, flex-end */
     }
     .videostyle {
       max-width: 20rem;
-      /* margin-right: 30%; */
+      margin-top: 2rem;
     }
     .videostyle2 {
       max-width: 20rem;
@@ -83,6 +83,12 @@ had help from andrew with flex-grow, flex-end */
    }
    .stacktype {
      /* text-align: center; */
+   }
+   .push2 {
+     padding-top: 5rem;
+   }
+   .push2 {
+     padding-top: 2rem;
    }
 }
  @media (min-width: 23.5em) {
@@ -268,9 +274,16 @@ had help from andrew with flex-grow, flex-end */
    .videostyle {
      max-width: 20rem;
      margin-right: 30%;
+     margin-top: none;
    }
    .videostyle2 {
      max-width: 40rem;
      /* margin-right: 30%; */
+   }
+   .push2 {
+     padding-top: 10rem;
+   }
+   .push4 {
+     padding-top: 10rem;
    }
 }
