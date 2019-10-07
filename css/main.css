@@ -1,7 +1,10 @@
 .width {
   width: 100%;
 }
-
+#container {
+  overflow-x:hidden;
+  width:100%;
+}
 body {
   color: #000;
   background-color: #FFFEF7;
