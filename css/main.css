@@ -80,6 +80,17 @@ html, body {
   color: #8C8462;
   /* max-width: 32rem; */
   }
+  .thanks {
+  font-family:Avenir;
+  line-height: 1.4em;
+  font-size: 1rem;
+  /* line-height: 2.5em; */
+  text-align: left;
+  display: inline-block;
+  padding: 1rem;
+  color: #625C44;
+  /* max-width: 32rem; */
+  }
   p {
     font-family:Avenir;
     line-height: 1.5em;
@@ -109,7 +120,7 @@ html, body {
   .push {
     padding-top: 50rem;
   }
-  .push2 {
+  .push3 {
     padding-top: 10rem;
   }
   .productpad {
