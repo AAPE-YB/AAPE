@@ -220,7 +220,7 @@ had help from andrew with flex-grow, flex-end */
    }
    .stacktype {
      position:absolute;
-     max-width: 40rem;
+     max-width: 31rem;
      z-index: 1;
      margin-top: 3rem;
      margin-left:auto;
