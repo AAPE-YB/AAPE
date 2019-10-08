@@ -228,6 +228,16 @@ had help from andrew with flex-grow, flex-end */
      left: 0; /*NEW*/
      right: 0; /*NEW*/
    }
+   .stacktype2 {
+     position:absolute;
+     max-width: 31rem;
+     z-index: 1;
+     margin-top: 6rem;
+     margin-left:auto;
+     margin-right:auto;
+     left: 0; /*NEW*/
+     right: 0; /*NEW*/
+   }
    .spacee {
      padding-top: 3rem;
    }
