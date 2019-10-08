@@ -44,6 +44,23 @@ html, body {
     overflow-x: hidden;
 }
 
+.progress-container {
+  top: 0;
+  position: fixed;
+  length: 100%;
+  height: 8px;
+  /* background: #ccc; */
+}
+
+.progress-bar {
+  top: 0;
+  /* margin-top: 100rem; */
+  position: fixed;
+  height: 4px;
+  background: #EEB91D;
+  width: 0%;
+}
+
   @font-face {
   font-family: Circular;
   src: url(../type/circular-black.woff);
@@ -119,6 +136,7 @@ html, body {
   display: inline-block;
   padding: 1rem;
   color: #625C44;
+  max-width: 50rem;
   /* max-width: 32rem; */
   }
   p {
